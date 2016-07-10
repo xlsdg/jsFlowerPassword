@@ -1,0 +1,28 @@
+{
+  "name": "jsFlowerPassword",
+  "version": "0.0.3",
+  "title": "jsFlowerPassword",
+  "description": "Flower Password in Javascript.",
+  "keywords": [
+    "javascript",
+    "flowerpassword"
+  ],
+  "homepage": "https://github.com/xlsdg/jsFlowerPassword",
+  "author": {
+    "name": "xLsDg",
+    "url": "http://blog.xlsdg.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xlsdg/jsFlowerPassword.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "2.6.1"
+  },
+  "scripts": {
+    "build": "cd js && uglifyjs flowerpassword.js -c -m -o flowerpassword.min.js --source-map flowerpassword.min.js.map",
+    "version": "npm run build && git add -A js"
+  },
+  "main": "js/flowerpassword.js"
+}

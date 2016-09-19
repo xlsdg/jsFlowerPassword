@@ -1,4 +1,5 @@
-# Flower Password in Javascript
+# jsFlowerPassword
+Flower Password implementation for JavaScript. 
 
 ## Usage
 

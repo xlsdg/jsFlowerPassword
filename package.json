@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "uglify-js": "2.6.1"
+    "uglify-js": "2.7.5"
   },
   "scripts": {
     "build": "cd js && uglifyjs flowerpassword.js -c -m -o flowerpassword.min.js --source-map flowerpassword.min.js.map",
